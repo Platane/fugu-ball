@@ -1,0 +1,494 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" 
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="4000" height="4000" viewBox="0 0 4000 4000"
+     xmlns="http://www.w3.org/2000/svg" version="1.1">
+<desc>fish2.blend, (Blender 4.1.1)</desc>
+<polygon stroke="black" stroke-width="1" fill="rgb(204, 204, 204)" fill-opacity="0.25" points="3417.917,1184.600 3246.067,1076.719 3259.287,1371.048 " />
+<polygon stroke="black" stroke-width="1" fill="rgb(204, 204, 204)" fill-opacity="0.25" points="3039.590,1567.358 2821.297,2197.565 3133.132,2171.230 " />
+<polygon stroke="black" stroke-width="1" fill="rgb(204, 204, 204)" fill-opacity="0.25" points="2071.694,1612.451 2496.229,1230.743 2028.695,1027.338 " />
+<polygon stroke="black" stroke-width="1" fill="rgb(204, 204, 204)" fill-opacity="0.25" points="3039.590,1567.358 3619.560,1706.327 3259.287,1371.048 " />
+<polygon stroke="black" stroke-width="1" fill="rgb(204, 204, 204)" fill-opacity="0.25" points="1954.709,1414.622 1468.178,1296.689 1837.976,2041.168 " />
+<polygon stroke="black" stroke-width="1" fill="rgb(204, 204, 204)" fill-opacity="0.25" points="1837.976,2041.168 1468.177,1778.123 1577.287,2197.566 " />
+<polygon stroke="black" stroke-width="1" fill="rgb(204, 204, 204)" fill-opacity="0.25" points="36.993,3963.007 546.592,3878.949 133.066,3458.337 " />
+<polygon stroke="black" stroke-width="1" fill="rgb(204, 204, 204)" fill-opacity="0.25" points="3619.560,1706.327 3417.917,1184.600 3259.287,1371.048 " />
+<polygon stroke="black" stroke-width="1" fill="rgb(204, 204, 204)" fill-opacity="0.25" points="133.066,3458.337 756.776,3096.994 205.625,2903.725 " />
+<polygon stroke="black" stroke-width="1" fill="rgb(204, 204, 204)" fill-opacity="0.25" points="546.592,3878.949 756.776,3096.994 133.066,3458.337 " />
+<polygon stroke="black" stroke-width="1" fill="rgb(204, 204, 204)" fill-opacity="0.25" points="2821.297,36.993 3292.169,746.372 3587.481,298.897 " />
+<polygon stroke="black" stroke-width="1" fill="rgb(204, 204, 204)" fill-opacity="0.25" points="2231.515,2191.700 2071.694,1612.451 2028.695,2197.565 " />
+<polygon stroke="black" stroke-width="1" fill="rgb(204, 204, 204)" fill-opacity="0.25" points="2231.515,2191.700 2613.444,1837.307 2071.694,1612.451 " />
+<polygon stroke="black" stroke-width="1" fill="rgb(204, 204, 204)" fill-opacity="0.25" points="2504.970,1518.609 2496.229,1230.743 2071.694,1612.451 " />
+<polygon stroke="black" stroke-width="1" fill="rgb(204, 204, 204)" fill-opacity="0.25" points="2281.767,3729.427 1745.644,3301.237 1828.554,3963.007 " />
+<polygon stroke="black" stroke-width="1" fill="rgb(204, 204, 204)" fill-opacity="0.25" points="2082.856,3171.009 1745.644,3301.237 2281.767,3729.427 " />
+<polygon stroke="black" stroke-width="1" fill="rgb(204, 204, 204)" fill-opacity="0.25" points="1858.197,1014.443 1468.178,1296.689 1954.709,1414.622 " />
+<polygon stroke="black" stroke-width="1" fill="rgb(204, 204, 204)" fill-opacity="0.25" points="1721.716,3155.229 1482.328,2560.371 1468.178,2971.780 " />
+<polygon stroke="black" stroke-width="1" fill="rgb(204, 204, 204)" fill-opacity="0.25" points="1761.189,2377.339 1482.328,2560.371 1721.716,3155.229 " />
+<polygon stroke="black" stroke-width="1" fill="rgb(204, 204, 204)" fill-opacity="0.25" points="1468.177,1778.123 1837.976,2041.168 1468.178,1296.689 " />
+<polygon stroke="black" stroke-width="1" fill="rgb(204, 204, 204)" fill-opacity="0.25" points="1835.152,843.110 2108.143,940.457 2081.978,564.646 " />
+<polygon stroke="black" stroke-width="1" fill="rgb(204, 204, 204)" fill-opacity="0.25" points="2887.999,474.480 3292.169,746.372 2821.297,36.993 " />
+<polygon stroke="black" stroke-width="1" fill="rgb(204, 204, 204)" fill-opacity="0.25" points="2887.999,474.480 2821.297,1002.733 3292.169,746.372 " />
+<polygon stroke="black" stroke-width="1" fill="rgb(204, 204, 204)" fill-opacity="0.25" points="1310.381,3467.720 1178.112,3011.276 1063.601,3532.148 " />
+<polygon stroke="black" stroke-width="1" fill="rgb(204, 204, 204)" fill-opacity="0.25" points="1178.112,3011.276 756.776,3096.994 1063.601,3532.148 " />
+<polygon stroke="black" stroke-width="1" fill="rgb(204, 204, 204)" fill-opacity="0.25" points="756.776,3096.994 488.968,2466.483 205.625,2903.725 " />
+<polygon stroke="black" stroke-width="1" fill="rgb(204, 204, 204)" fill-opacity="0.25" points="945.337,2599.609 488.968,2466.483 756.776,3096.994 " />
+<polygon stroke="black" stroke-width="1" fill="rgb(204, 204, 204)" fill-opacity="0.25" points="2613.444,1837.307 2504.970,1518.609 2071.694,1612.451 " />
+<polygon stroke="black" stroke-width="1" fill="rgb(204, 204, 204)" fill-opacity="0.25" points="1721.716,3155.229 2078.401,2530.563 1761.189,2377.339 " />
+<polygon stroke="black" stroke-width="1" fill="rgb(204, 204, 204)" fill-opacity="0.25" points="2082.856,3171.009 2078.401,2530.563 1721.716,3155.229 " />
+<polygon stroke="black" stroke-width="1" fill="rgb(204, 204, 204)" fill-opacity="0.25" points="1819.862,241.101 2081.978,564.646 2236.030,486.180 " />
+<polygon stroke="black" stroke-width="1" fill="rgb(204, 204, 204)" fill-opacity="0.25" points="2107.539,72.263 1819.862,241.101 2236.030,486.180 " />
+<polygon stroke="black" stroke-width="1" fill="rgb(204, 204, 204)" fill-opacity="0.25" points="1819.862,241.101 1835.152,843.110 2081.978,564.646 " />
+<polygon stroke="black" stroke-width="1" fill="rgb(204, 204, 204)" fill-opacity="0.25" points="2853.832,2352.788 2642.994,2551.655 3205.048,2690.975 " />
+<polygon stroke="black" stroke-width="1" fill="rgb(204, 204, 204)" fill-opacity="0.25" points="1178.112,3011.276 945.337,2599.609 756.776,3096.994 " />
+<polygon stroke="black" stroke-width="1" fill="rgb(204, 204, 204)" fill-opacity="0.25" points="2613.444,1837.307 2747.311,1674.217 2504.970,1518.609 " />
+<polygon stroke="black" stroke-width="1" fill="rgb(204, 204, 204)" fill-opacity="0.25" points="488.968,2466.483 830.246,2186.868 404.163,2273.281 " />
+<polygon stroke="black" stroke-width="1" fill="rgb(204, 204, 204)" fill-opacity="0.25" points="945.337,2599.609 830.246,2186.868 488.968,2466.483 " />
+<polygon stroke="black" stroke-width="1" fill="rgb(204, 204, 204)" fill-opacity="0.25" points="2281.767,3729.427 2516.849,3363.708 2082.856,3171.009 " />
+<polygon stroke="black" stroke-width="1" fill="rgb(204, 204, 204)" fill-opacity="0.25" points="2516.849,3363.708 2547.659,2797.147 2082.856,3171.009 " />
+<polygon stroke="black" stroke-width="1" fill="rgb(204, 204, 204)" fill-opacity="0.25" points="2547.659,2797.147 2078.401,2530.563 2082.856,3171.009 " />
+<polygon stroke="black" stroke-width="1" fill="rgb(204, 204, 204)" fill-opacity="0.25" points="2623.104,3446.422 2857.796,3963.007 3223.057,3738.984 3017.722,3125.101 " />
+<polygon stroke="black" stroke-width="1" fill="rgb(204, 204, 204)" fill-opacity="0.25" points="2547.659,2797.147 2547.659,2271.551 2078.401,2530.563 " />
+<polygon stroke="black" stroke-width="1" fill="rgb(204, 204, 204)" fill-opacity="0.25" points="1468.178,261.566 1468.178,797.561 1835.152,843.110 1819.862,241.101 " />
+<polygon stroke="black" stroke-width="1" fill="rgb(204, 204, 204)" fill-opacity="0.25" points="2623.104,3446.422 3017.722,3125.101 2621.645,2920.829 " />
+<polygon stroke="black" stroke-width="1" fill="rgb(204, 204, 204)" fill-opacity="0.25" points="3375.619,3291.347 3375.619,2816.125 3017.722,3125.101 " />
+<polygon stroke="black" stroke-width="1" fill="rgb(204, 204, 204)" fill-opacity="0.25" points="3017.722,3125.101 3223.057,3738.984 3375.619,3291.347 " />
+<polygon stroke="black" stroke-width="1" fill="rgb(204, 204, 204)" fill-opacity="0.25" points="188.532,1216.933 36.993,1444.920 183.347,1448.240 219.586,1415.683 " />
+<polygon stroke="black" stroke-width="1" fill="rgb(204, 204, 204)" fill-opacity="0.25" points="452.683,1684.969 673.932,1338.254 437.808,1435.726 " />
+<polygon stroke="black" stroke-width="1" fill="rgb(204, 204, 204)" fill-opacity="0.25" points="183.559,1463.466 45.405,1511.881 303.564,1646.253 246.540,1497.235 " />
+<polygon stroke="black" stroke-width="1" fill="rgb(204, 204, 204)" fill-opacity="0.25" points="673.932,1338.254 452.683,1684.969 600.876,1763.898 " />
+<polygon stroke="black" stroke-width="1" fill="rgb(204, 204, 204)" fill-opacity="0.25" points="3133.132,2171.230 3769.916,2197.565 3619.560,1706.327 3039.590,1567.358 " />
+<polygon stroke="black" stroke-width="1" fill="rgb(204, 204, 204)" fill-opacity="0.25" points="2621.645,2920.829 3017.722,3125.101 3205.048,2690.975 2642.994,2551.655 " />
+<polygon stroke="black" stroke-width="1" fill="rgb(204, 204, 204)" fill-opacity="0.25" points="1394.192,3948.031 1310.381,3467.720 1063.601,3532.148 962.584,3963.007 " />
+<polygon stroke="black" stroke-width="1" fill="rgb(204, 204, 204)" fill-opacity="0.25" points="328.236,954.521 36.993,1041.675 188.532,1216.933 " />
+<polygon stroke="black" stroke-width="1" fill="rgb(204, 204, 204)" fill-opacity="0.25" points="407.142,2086.985 334.976,1951.140 61.392,1960.834 236.209,2112.882 " />
+<polygon stroke="black" stroke-width="1" fill="rgb(204, 204, 204)" fill-opacity="0.25" points="219.586,1415.683 274.685,1455.699 437.808,1435.726 188.532,1216.933 " />
+<polygon stroke="black" stroke-width="1" fill="rgb(204, 204, 204)" fill-opacity="0.25" points="437.808,1435.726 274.685,1455.699 246.540,1497.235 303.564,1646.253 " />
+<polygon stroke="black" stroke-width="1" fill="rgb(204, 204, 204)" fill-opacity="0.25" points="407.142,2086.985 600.876,1763.898 452.683,1684.969 334.976,1951.140 " />
+<polygon stroke="black" stroke-width="1" fill="rgb(204, 204, 204)" fill-opacity="0.25" points="673.932,1338.254 328.236,954.521 188.532,1216.933 437.808,1435.726 " />
+
+
+<line x1="2623.104" x2="3223.057" y1="3446.422" y2="3738.984" stroke="#666" stroke-width="1" />
+<line x1="1468.178" x2="1835.152" y1="261.566" y2="843.11" stroke="#666" stroke-width="1" />
+<line x1="188.532" x2="183.347" y1="1216.933" y2="1448.24" stroke="#666" stroke-width="1" />
+<line x1="183.559" x2="303.564" y1="1463.466" y2="1646.253" stroke="#666" stroke-width="1" />
+<line x1="3133.132" x2="3619.56" y1="2171.23" y2="1706.327" stroke="#666" stroke-width="1" />
+<line x1="2621.645" x2="3205.048" y1="2920.829" y2="2690.975" stroke="#666" stroke-width="1" />
+<line x1="1394.192" x2="1063.601" y1="3948.031" y2="3532.148" stroke="#666" stroke-width="1" />
+<line x1="407.142" x2="61.392" y1="2086.985" y2="1960.834" stroke="#666" stroke-width="1" />
+<line x1="219.586" x2="437.808" y1="1415.683" y2="1435.726" stroke="#666" stroke-width="1" />
+<line x1="437.808" x2="246.54" y1="1435.726" y2="1497.235" stroke="#666" stroke-width="1" />
+<line x1="407.142" x2="452.683" y1="2086.985" y2="1684.969" stroke="#666" stroke-width="1" />
+<line x1="673.932" x2="188.532" y1="1338.254" y2="1216.933" stroke="#666" stroke-width="1" />
+<circle cx="3338.602" cy="1277.824" r="3" fill="#333" />
+<text x="3308.602" y="1278.824" textLength="60">244.80</text>
+<circle cx="3331.992" cy="1130.6595" r="3" fill="#333" />
+<text x="3301.992" y="1131.6595" textLength="60">202.91</text>
+<circle cx="3252.6769999999997" cy="1223.8835" r="3" fill="#333" />
+<text x="3222.6769999999997" y="1224.8835" textLength="60">294.63</text>
+<circle cx="3086.361" cy="1869.2939999999999" r="3" fill="#333" />
+<text x="3056.361" y="1870.2939999999999" textLength="60">611.07</text>
+<circle cx="2930.4435000000003" cy="1882.4615" r="3" fill="#333" />
+<text x="2900.4435000000003" y="1883.4615" textLength="60">666.94</text>
+<circle cx="2977.2145" cy="2184.3975" r="3" fill="#333" />
+<text x="2947.2145" y="2185.3975" textLength="60">312.95</text>
+<circle cx="2050.1945" cy="1319.8944999999999" r="3" fill="#333" />
+<text x="2020.1945" y="1320.8944999999999" textLength="60">586.69</text>
+<circle cx="2283.9615" cy="1421.597" r="3" fill="#333" />
+<text x="2253.9615" y="1422.597" textLength="60">570.90</text>
+<circle cx="2262.462" cy="1129.0405" r="3" fill="#333" />
+<text x="2232.462" y="1130.0405" textLength="60">509.86</text>
+<circle cx="3149.4385" cy="1469.203" r="3" fill="#333" />
+<text x="3119.4385" y="1470.203" textLength="60">294.63</text>
+<circle cx="3329.575" cy="1636.8425" r="3" fill="#333" />
+<text x="3299.575" y="1637.8425" textLength="60">596.39</text>
+<circle cx="3439.4235" cy="1538.6875" r="3" fill="#333" />
+<text x="3409.4235" y="1539.6875" textLength="60">492.15</text>
+<circle cx="1896.3425000000002" cy="1727.895" r="3" fill="#333" />
+<text x="1866.3425000000002" y="1728.895" textLength="60">637.33</text>
+<circle cx="1711.4435" cy="1355.6555" r="3" fill="#333" />
+<text x="1681.4435" y="1356.6555" textLength="60">500.62</text>
+<circle cx="1653.0770000000002" cy="1668.9285" r="3" fill="#333" />
+<text x="1623.0770000000002" y="1669.9285" textLength="60">831.26</text>
+<circle cx="1707.6315" cy="2119.3669999999997" r="3" fill="#333" />
+<text x="1677.6315" y="2120.3669999999997" textLength="60">304.01</text>
+<circle cx="1653.0765000000001" cy="1909.6455" r="3" fill="#333" />
+<text x="1623.0765000000001" y="1910.6455" textLength="60">453.81</text>
+<circle cx="1522.732" cy="1987.8445" r="3" fill="#333" />
+<text x="1492.732" y="1988.8445" textLength="60">433.40</text>
+<circle cx="85.0295" cy="3710.672" r="3" fill="#333" />
+<text x="55.0295" y="3711.672" textLength="60">513.73</text>
+<circle cx="291.7925" cy="3920.978" r="3" fill="#333" />
+<text x="261.7925" y="3921.978" textLength="60">516.49</text>
+<circle cx="339.829" cy="3668.643" r="3" fill="#333" />
+<text x="309.829" y="3669.643" textLength="60">589.85</text>
+<circle cx="3439.4235" cy="1538.6875" r="3" fill="#333" />
+<text x="3409.4235" y="1539.6875" textLength="60">492.15</text>
+<circle cx="3518.7385" cy="1445.4634999999998" r="3" fill="#333" />
+<text x="3488.7385" y="1446.4634999999998" textLength="60">559.34</text>
+<circle cx="3338.602" cy="1277.824" r="3" fill="#333" />
+<text x="3308.602" y="1278.824" textLength="60">244.80</text>
+<circle cx="169.34550000000002" cy="3181.031" r="3" fill="#333" />
+<text x="139.34550000000002" y="3182.031" textLength="60">559.34</text>
+<circle cx="444.921" cy="3277.6655" r="3" fill="#333" />
+<text x="414.921" y="3278.6655" textLength="60">720.82</text>
+<circle cx="481.2005" cy="3000.3595" r="3" fill="#333" />
+<text x="451.2005" y="3001.3595" textLength="60">584.06</text>
+<circle cx="339.829" cy="3668.643" r="3" fill="#333" />
+<text x="309.829" y="3669.643" textLength="60">589.85</text>
+<circle cx="651.684" cy="3487.9715" r="3" fill="#333" />
+<text x="621.684" y="3488.9715" textLength="60">809.71</text>
+<circle cx="444.921" cy="3277.6655" r="3" fill="#333" />
+<text x="414.921" y="3278.6655" textLength="60">720.82</text>
+<circle cx="3204.389" cy="167.945" r="3" fill="#333" />
+<text x="3174.389" y="168.945" textLength="60">809.71</text>
+<circle cx="3056.733" cy="391.6825" r="3" fill="#333" />
+<text x="3026.733" y="392.6825" textLength="60">851.43</text>
+<circle cx="3439.825" cy="522.6345" r="3" fill="#333" />
+<text x="3409.825" y="523.6345" textLength="60">536.14</text>
+<circle cx="2130.105" cy="2194.6324999999997" r="3" fill="#333" />
+<text x="2100.105" y="2195.6324999999997" textLength="60">202.90</text>
+<circle cx="2151.6045" cy="1902.0755" r="3" fill="#333" />
+<text x="2121.6045" y="1903.0755" textLength="60">600.89</text>
+<circle cx="2050.1945" cy="1905.008" r="3" fill="#333" />
+<text x="2020.1945" y="1906.008" textLength="60">586.69</text>
+<circle cx="2151.6045" cy="1902.0755" r="3" fill="#333" />
+<text x="2121.6045" y="1903.0755" textLength="60">600.89</text>
+<circle cx="2422.4795" cy="2014.5034999999998" r="3" fill="#333" />
+<text x="2392.4795" y="2015.5034999999998" textLength="60">521.02</text>
+<circle cx="2342.569" cy="1724.879" r="3" fill="#333" />
+<text x="2312.569" y="1725.879" textLength="60">586.56</text>
+<circle cx="2288.332" cy="1565.53" r="3" fill="#333" />
+<text x="2258.332" y="1566.53" textLength="60">443.32</text>
+<circle cx="2500.5995" cy="1374.676" r="3" fill="#333" />
+<text x="2470.5995" y="1375.676" textLength="60">288.00</text>
+<circle cx="2283.9615" cy="1421.597" r="3" fill="#333" />
+<text x="2253.9615" y="1422.597" textLength="60">570.90</text>
+<circle cx="2055.1605" cy="3846.217" r="3" fill="#333" />
+<text x="2025.1605" y="3847.217" textLength="60">509.86</text>
+<circle cx="2013.7055" cy="3515.3320000000003" r="3" fill="#333" />
+<text x="1983.7055" y="3516.3320000000003" textLength="60">686.13</text>
+<circle cx="1787.0990000000002" cy="3632.1220000000003" r="3" fill="#333" />
+<text x="1757.0990000000002" y="3633.1220000000003" textLength="60">666.94</text>
+<circle cx="2182.3115" cy="3450.218" r="3" fill="#333" />
+<text x="2152.3115" y="3451.218" textLength="60">592.79</text>
+<circle cx="1914.25" cy="3236.123" r="3" fill="#333" />
+<text x="1884.25" y="3237.123" textLength="60">361.48</text>
+<circle cx="2013.7055" cy="3515.3320000000003" r="3" fill="#333" />
+<text x="1983.7055" y="3516.3320000000003" textLength="60">686.13</text>
+<circle cx="1906.453" cy="1214.5325" r="3" fill="#333" />
+<text x="1876.453" y="1215.5325" textLength="60">411.65</text>
+<circle cx="1663.1875" cy="1155.566" r="3" fill="#333" />
+<text x="1633.1875" y="1156.566" textLength="60">481.43</text>
+<circle cx="1711.4435" cy="1355.6555" r="3" fill="#333" />
+<text x="1681.4435" y="1356.6555" textLength="60">500.62</text>
+<circle cx="1594.9470000000001" cy="3063.5045" r="3" fill="#333" />
+<text x="1564.9470000000001" y="3064.5045" textLength="60">312.95</text>
+<circle cx="1602.022" cy="2857.8" r="3" fill="#333" />
+<text x="1572.022" y="2858.8" textLength="60">641.22</text>
+<circle cx="1475.2530000000002" cy="2766.0755" r="3" fill="#333" />
+<text x="1445.2530000000002" y="2767.0755" textLength="60">411.65</text>
+<circle cx="1741.4524999999999" cy="2766.2839999999997" r="3" fill="#333" />
+<text x="1711.4524999999999" y="2767.2839999999997" textLength="60">778.89</text>
+<circle cx="1621.7585" cy="2468.855" r="3" fill="#333" />
+<text x="1591.7585" y="2469.855" textLength="60">333.56</text>
+<circle cx="1602.022" cy="2857.8" r="3" fill="#333" />
+<text x="1572.022" y="2858.8" textLength="60">641.22</text>
+<circle cx="1468.1775" cy="1537.406" r="3" fill="#333" />
+<text x="1438.1775" y="1538.406" textLength="60">481.43</text>
+<circle cx="1653.0765000000001" cy="1909.6455" r="3" fill="#333" />
+<text x="1623.0765000000001" y="1910.6455" textLength="60">453.81</text>
+<circle cx="1653.0770000000002" cy="1668.9285" r="3" fill="#333" />
+<text x="1623.0770000000002" y="1669.9285" textLength="60">831.26</text>
+<circle cx="1958.565" cy="703.8779999999999" r="3" fill="#333" />
+<text x="1928.565" y="704.8779999999999" textLength="60">372.11</text>
+<circle cx="1971.6475" cy="891.7835" r="3" fill="#333" />
+<text x="1941.6475" y="892.7835" textLength="60">289.83</text>
+<circle cx="2095.0605" cy="752.5515" r="3" fill="#333" />
+<text x="2065.0605" y="753.5515" textLength="60">376.72</text>
+<circle cx="2854.648" cy="255.7365" r="3" fill="#333" />
+<text x="2824.648" y="256.7365" textLength="60">442.54</text>
+<circle cx="3090.084" cy="610.4259999999999" r="3" fill="#333" />
+<text x="3060.084" y="611.4259999999999" textLength="60">487.11</text>
+<circle cx="3056.733" cy="391.6825" r="3" fill="#333" />
+<text x="3026.733" y="392.6825" textLength="60">851.43</text>
+<circle cx="3090.084" cy="610.4259999999999" r="3" fill="#333" />
+<text x="3060.084" y="611.4259999999999" textLength="60">487.11</text>
+<circle cx="2854.648" cy="738.6065" r="3" fill="#333" />
+<text x="2824.648" y="739.6065" textLength="60">532.45</text>
+<circle cx="3056.733" cy="874.5525" r="3" fill="#333" />
+<text x="3026.733" y="875.5525" textLength="60">536.14</text>
+<circle cx="1186.991" cy="3499.934" r="3" fill="#333" />
+<text x="1156.991" y="3500.934" textLength="60">255.05</text>
+<circle cx="1244.2465000000002" cy="3239.4979999999996" r="3" fill="#333" />
+<text x="1214.2465000000002" y="3240.4979999999996" textLength="60">475.22</text>
+<circle cx="1120.8565" cy="3271.712" r="3" fill="#333" />
+<text x="1090.8565" y="3272.712" textLength="60">533.31</text>
+<circle cx="1120.8565" cy="3271.712" r="3" fill="#333" />
+<text x="1090.8565" y="3272.712" textLength="60">533.31</text>
+<circle cx="967.444" cy="3054.135" r="3" fill="#333" />
+<text x="937.444" y="3055.135" textLength="60">429.97</text>
+<circle cx="910.1885" cy="3314.571" r="3" fill="#333" />
+<text x="880.1885" y="3315.571" textLength="60">532.45</text>
+<circle cx="481.2005" cy="3000.3595" r="3" fill="#333" />
+<text x="451.2005" y="3001.3595" textLength="60">584.06</text>
+<circle cx="622.872" cy="2781.7385000000004" r="3" fill="#333" />
+<text x="592.872" y="2782.7385000000004" textLength="60">685.03</text>
+<circle cx="347.29650000000004" cy="2685.1040000000003" r="3" fill="#333" />
+<text x="317.29650000000004" y="2686.1040000000003" textLength="60">521.02</text>
+<circle cx="851.0564999999999" cy="2848.3015" r="3" fill="#333" />
+<text x="821.0564999999999" y="2849.3015" textLength="60">531.93</text>
+<circle cx="717.1525" cy="2533.0460000000003" r="3" fill="#333" />
+<text x="687.1525" y="2534.0460000000003" textLength="60">475.39</text>
+<circle cx="622.872" cy="2781.7385000000004" r="3" fill="#333" />
+<text x="592.872" y="2782.7385000000004" textLength="60">685.03</text>
+<circle cx="2342.569" cy="1724.879" r="3" fill="#333" />
+<text x="2312.569" y="1725.879" textLength="60">586.56</text>
+<circle cx="2559.207" cy="1677.958" r="3" fill="#333" />
+<text x="2529.207" y="1678.958" textLength="60">336.65</text>
+<circle cx="2288.332" cy="1565.53" r="3" fill="#333" />
+<text x="2258.332" y="1566.53" textLength="60">443.32</text>
+<circle cx="1741.4524999999999" cy="2766.2839999999997" r="3" fill="#333" />
+<text x="1711.4524999999999" y="2767.2839999999997" textLength="60">778.89</text>
+<circle cx="1900.0584999999999" cy="2842.8959999999997" r="3" fill="#333" />
+<text x="1870.0584999999999" y="2843.8959999999997" textLength="60">719.33</text>
+<circle cx="1919.795" cy="2453.951" r="3" fill="#333" />
+<text x="1889.795" y="2454.951" textLength="60">352.28</text>
+<circle cx="1902.286" cy="3163.1189999999997" r="3" fill="#333" />
+<text x="1872.286" y="3164.1189999999997" textLength="60">361.48</text>
+<circle cx="2080.6285" cy="2850.786" r="3" fill="#333" />
+<text x="2050.6285" y="2851.786" textLength="60">640.46</text>
+<circle cx="1900.0584999999999" cy="2842.8959999999997" r="3" fill="#333" />
+<text x="1870.0584999999999" y="2843.8959999999997" textLength="60">719.33</text>
+<circle cx="2027.9460000000001" cy="363.6405" r="3" fill="#333" />
+<text x="1997.9460000000001" y="364.6405" textLength="60">482.97</text>
+<circle cx="1950.92" cy="402.8735" r="3" fill="#333" />
+<text x="1920.92" y="403.8735" textLength="60">416.40</text>
+<circle cx="2159.004" cy="525.413" r="3" fill="#333" />
+<text x="2129.004" y="526.413" textLength="60">172.88</text>
+<circle cx="2171.7845" cy="279.2215" r="3" fill="#333" />
+<text x="2141.7845" y="280.2215" textLength="60">433.40</text>
+<circle cx="1963.7005000000001" cy="156.68200000000002" r="3" fill="#333" />
+<text x="1933.7005000000001" y="157.68200000000002" textLength="60">333.56</text>
+<circle cx="2027.9460000000001" cy="363.6405" r="3" fill="#333" />
+<text x="1997.9460000000001" y="364.6405" textLength="60">482.97</text>
+<circle cx="1950.92" cy="402.8735" r="3" fill="#333" />
+<text x="1920.92" y="403.8735" textLength="60">416.40</text>
+<circle cx="1827.507" cy="542.1055" r="3" fill="#333" />
+<text x="1797.507" y="543.1055" textLength="60">602.20</text>
+<circle cx="1958.565" cy="703.8779999999999" r="3" fill="#333" />
+<text x="1928.565" y="704.8779999999999" textLength="60">372.11</text>
+<circle cx="3029.4399999999996" cy="2521.8815" r="3" fill="#333" />
+<text x="2999.4399999999996" y="2522.8815" textLength="60">487.57</text>
+<circle cx="2748.413" cy="2452.2215" r="3" fill="#333" />
+<text x="2718.413" y="2453.2215" textLength="60">289.83</text>
+<circle cx="2924.0209999999997" cy="2621.315" r="3" fill="#333" />
+<text x="2894.0209999999997" y="2622.315" textLength="60">579.06</text>
+<circle cx="967.444" cy="3054.135" r="3" fill="#333" />
+<text x="937.444" y="3055.135" textLength="60">429.97</text>
+<circle cx="1061.7245" cy="2805.4425" r="3" fill="#333" />
+<text x="1031.7245" y="2806.4425" textLength="60">472.92</text>
+<circle cx="851.0564999999999" cy="2848.3015" r="3" fill="#333" />
+<text x="821.0564999999999" y="2849.3015" textLength="60">531.93</text>
+<circle cx="2559.207" cy="1677.958" r="3" fill="#333" />
+<text x="2529.207" y="1678.958" textLength="60">336.65</text>
+<circle cx="2680.3775" cy="1755.7620000000002" r="3" fill="#333" />
+<text x="2650.3775" y="1756.7620000000002" textLength="60">210.99</text>
+<circle cx="2626.1405" cy="1596.413" r="3" fill="#333" />
+<text x="2596.1405" y="1597.413" textLength="60">288.00</text>
+<circle cx="446.56550000000004" cy="2369.882" r="3" fill="#333" />
+<text x="416.56550000000004" y="2370.882" textLength="60">211.00</text>
+<circle cx="659.607" cy="2326.6755000000003" r="3" fill="#333" />
+<text x="629.607" y="2327.6755000000003" textLength="60">441.20</text>
+<circle cx="617.2045" cy="2230.0744999999997" r="3" fill="#333" />
+<text x="587.2045" y="2231.0744999999997" textLength="60">434.76</text>
+<circle cx="717.1525" cy="2533.0460000000003" r="3" fill="#333" />
+<text x="687.1525" y="2534.0460000000003" textLength="60">475.39</text>
+<circle cx="887.7915" cy="2393.2385" r="3" fill="#333" />
+<text x="857.7915" y="2394.2385" textLength="60">428.49</text>
+<circle cx="659.607" cy="2326.6755000000003" r="3" fill="#333" />
+<text x="629.607" y="2327.6755000000003" textLength="60">441.20</text>
+<circle cx="2182.3115" cy="3450.218" r="3" fill="#333" />
+<text x="2152.3115" y="3451.218" textLength="60">592.79</text>
+<circle cx="2399.308" cy="3546.5675" r="3" fill="#333" />
+<text x="2369.308" y="3547.5675" textLength="60">434.76</text>
+<circle cx="2299.8525" cy="3267.3585000000003" r="3" fill="#333" />
+<text x="2269.8525" y="3268.3585000000003" textLength="60">474.85</text>
+<circle cx="2299.8525" cy="3267.3585000000003" r="3" fill="#333" />
+<text x="2269.8525" y="3268.3585000000003" textLength="60">474.85</text>
+<circle cx="2532.254" cy="3080.4275" r="3" fill="#333" />
+<text x="2502.254" y="3081.4275" textLength="60">567.40</text>
+<circle cx="2315.2575" cy="2984.078" r="3" fill="#333" />
+<text x="2285.2575" y="2985.078" textLength="60">596.50</text>
+<circle cx="2315.2575" cy="2984.078" r="3" fill="#333" />
+<text x="2285.2575" y="2985.078" textLength="60">596.50</text>
+<circle cx="2313.0299999999997" cy="2663.855" r="3" fill="#333" />
+<text x="2283.0299999999997" y="2664.855" textLength="60">539.69</text>
+<circle cx="2080.6285" cy="2850.786" r="3" fill="#333" />
+<text x="2050.6285" y="2851.786" textLength="60">640.46</text>
+<circle cx="2820.413" cy="3285.7615" r="3" fill="#333" />
+<text x="2790.413" y="3286.7615" textLength="60">508.89</text>
+<circle cx="2740.45" cy="3704.7145" r="3" fill="#333" />
+<text x="2710.45" y="3705.7145" textLength="60">567.40</text>
+<circle cx="3040.4264999999996" cy="3850.9955" r="3" fill="#333" />
+<text x="3010.4264999999996" y="3851.9955" textLength="60">428.49</text>
+<circle cx="3120.3895" cy="3432.0425" r="3" fill="#333" />
+<text x="3090.3895" y="3433.0425" textLength="60">647.31</text>
+<circle cx="2923.0805" cy="3592.703" r="3" fill="#333" />
+<text x="2893.0805" y="3593.703" textLength="60">667.48</text>
+<circle cx="2313.0299999999997" cy="2663.855" r="3" fill="#333" />
+<text x="2283.0299999999997" y="2664.855" textLength="60">539.69</text>
+<circle cx="2547.659" cy="2534.349" r="3" fill="#333" />
+<text x="2517.659" y="2535.349" textLength="60">525.60</text>
+<circle cx="2313.0299999999997" cy="2401.057" r="3" fill="#333" />
+<text x="2283.0299999999997" y="2402.057" textLength="60">535.99</text>
+<circle cx="1644.02" cy="251.3335" r="3" fill="#333" />
+<text x="1614.02" y="252.3335" textLength="60">352.28</text>
+<circle cx="1468.178" cy="529.5635" r="3" fill="#333" />
+<text x="1438.178" y="530.5635" textLength="60">536.00</text>
+<circle cx="1651.665" cy="820.3355" r="3" fill="#333" />
+<text x="1621.665" y="821.3355" textLength="60">369.79</text>
+<circle cx="1827.507" cy="542.1055" r="3" fill="#333" />
+<text x="1797.507" y="543.1055" textLength="60">602.20</text>
+<circle cx="1651.665" cy="552.338" r="3" fill="#333" />
+<text x="1621.665" y="553.338" textLength="60">687.65</text>
+<circle cx="2622.3745" cy="3183.6255" r="3" fill="#333" />
+<text x="2592.3745" y="3184.6255" textLength="60">525.60</text>
+<circle cx="2820.413" cy="3285.7615" r="3" fill="#333" />
+<text x="2790.413" y="3286.7615" textLength="60">508.89</text>
+<circle cx="2819.6835" cy="3022.965" r="3" fill="#333" />
+<text x="2789.6835" y="3023.965" textLength="60">445.65</text>
+<circle cx="3196.6705" cy="3208.224" r="3" fill="#333" />
+<text x="3166.6705" y="3209.224" textLength="60">394.62</text>
+<circle cx="3375.619" cy="3053.736" r="3" fill="#333" />
+<text x="3345.619" y="3054.736" textLength="60">475.22</text>
+<circle cx="3196.6705" cy="2970.6130000000003" r="3" fill="#333" />
+<text x="3166.6705" y="2971.6130000000003" textLength="60">472.82</text>
+<circle cx="3196.6705" cy="3208.224" r="3" fill="#333" />
+<text x="3166.6705" y="3209.224" textLength="60">394.62</text>
+<circle cx="3120.3895" cy="3432.0425" r="3" fill="#333" />
+<text x="3090.3895" y="3433.0425" textLength="60">647.31</text>
+<circle cx="3299.3379999999997" cy="3515.1655" r="3" fill="#333" />
+<text x="3269.3379999999997" y="3516.1655" textLength="60">472.92</text>
+<circle cx="204.05900000000003" cy="1316.308" r="3" fill="#333" />
+<text x="174.05900000000003" y="1317.308" textLength="60">201.16</text>
+<circle cx="112.7625" cy="1330.9265" r="3" fill="#333" />
+<text x="82.7625" y="1331.9265" textLength="60">273.76</text>
+<circle cx="110.17" cy="1446.58" r="3" fill="#333" />
+<text x="80.17" y="1447.58" textLength="60">146.39</text>
+<circle cx="201.4665" cy="1431.9615" r="3" fill="#333" />
+<text x="171.4665" y="1432.9615" textLength="60">48.72</text>
+<circle cx="185.9395" cy="1332.5865" r="3" fill="#333" />
+<text x="155.9395" y="1333.5865" textLength="60">231.37</text>
+<circle cx="445.2455" cy="1560.3475" r="3" fill="#333" />
+<text x="415.2455" y="1561.3475" textLength="60">249.69</text>
+<circle cx="563.3075" cy="1511.6115" r="3" fill="#333" />
+<text x="533.3075" y="1512.6115" textLength="60">411.29</text>
+<circle cx="555.87" cy="1386.99" r="3" fill="#333" />
+<text x="525.87" y="1387.99" textLength="60">255.45</text>
+<circle cx="215.0495" cy="1480.3505" r="3" fill="#333" />
+<text x="185.0495" y="1481.3505" textLength="60">71.46</text>
+<circle cx="114.482" cy="1487.6734999999999" r="3" fill="#333" />
+<text x="84.482" y="1488.6734999999999" textLength="60">146.39</text>
+<circle cx="174.48450000000003" cy="1579.067" r="3" fill="#333" />
+<text x="144.48450000000003" y="1580.067" textLength="60">291.04</text>
+<circle cx="275.052" cy="1571.744" r="3" fill="#333" />
+<text x="245.05200000000002" y="1572.744" textLength="60">159.56</text>
+<circle cx="243.56150000000002" cy="1554.8595" r="3" fill="#333" />
+<text x="213.56150000000002" y="1555.8595" textLength="60">218.66</text>
+<circle cx="637.404" cy="1551.076" r="3" fill="#333" />
+<text x="607.404" y="1552.076" textLength="60">431.87</text>
+<circle cx="563.3075" cy="1511.6115" r="3" fill="#333" />
+<text x="533.3075" y="1512.6115" textLength="60">411.29</text>
+<circle cx="526.7795" cy="1724.4335" r="3" fill="#333" />
+<text x="496.7795" y="1725.4335" textLength="60">167.90</text>
+<circle cx="3086.361" cy="1869.2939999999999" r="3" fill="#333" />
+<text x="3056.361" y="1870.2939999999999" textLength="60">611.07</text>
+<circle cx="3451.5240000000003" cy="2184.3975" r="3" fill="#333" />
+<text x="3421.5240000000003" y="2185.3975" textLength="60">637.33</text>
+<circle cx="3694.7380000000003" cy="1951.946" r="3" fill="#333" />
+<text x="3664.7380000000003" y="1952.946" textLength="60">513.73</text>
+<circle cx="3329.575" cy="1636.8425" r="3" fill="#333" />
+<text x="3299.575" y="1637.8425" textLength="60">596.39</text>
+<circle cx="3376.346" cy="1938.7785" r="3" fill="#333" />
+<text x="3346.346" y="1939.7785" textLength="60">672.86</text>
+<circle cx="2632.3195" cy="2736.242" r="3" fill="#333" />
+<text x="2602.3195" y="2737.242" textLength="60">369.79</text>
+<circle cx="2819.6835" cy="3022.965" r="3" fill="#333" />
+<text x="2789.6835" y="3023.965" textLength="60">445.65</text>
+<circle cx="3111.385" cy="2908.038" r="3" fill="#333" />
+<text x="3081.385" y="2909.038" textLength="60">472.82</text>
+<circle cx="2924.0209999999997" cy="2621.315" r="3" fill="#333" />
+<text x="2894.0209999999997" y="2622.315" textLength="60">579.06</text>
+<circle cx="2913.3464999999997" cy="2805.902" r="3" fill="#333" />
+<text x="2883.3464999999997" y="2806.902" textLength="60">627.05</text>
+<circle cx="1178.388" cy="3955.5190000000002" r="3" fill="#333" />
+<text x="1148.388" y="3956.5190000000002" textLength="60">431.87</text>
+<circle cx="1352.2865000000002" cy="3707.8755" r="3" fill="#333" />
+<text x="1322.2865000000002" y="3708.8755" textLength="60">487.57</text>
+<circle cx="1186.991" cy="3499.934" r="3" fill="#333" />
+<text x="1156.991" y="3500.934" textLength="60">255.05</text>
+<circle cx="1013.0925" cy="3747.5775000000003" r="3" fill="#333" />
+<text x="983.0925" y="3748.5775000000003" textLength="60">442.54</text>
+<circle cx="1228.8965" cy="3740.0895" r="3" fill="#333" />
+<text x="1198.8965" y="3741.0895" textLength="60">531.27</text>
+<circle cx="258.384" cy="1085.7269999999999" r="3" fill="#333" />
+<text x="228.38400000000001" y="1086.7269999999999" textLength="60">297.28</text>
+<circle cx="182.6145" cy="998.098" r="3" fill="#333" />
+<text x="152.6145" y="999.098" textLength="60">304.00</text>
+<circle cx="112.7625" cy="1129.304" r="3" fill="#333" />
+<text x="82.7625" y="1130.304" textLength="60">231.69</text>
+<circle cx="321.6755" cy="2099.9335" r="3" fill="#333" />
+<text x="291.6755" y="2100.9335" textLength="60">172.88</text>
+<circle cx="371.05899999999997" cy="2019.0625" r="3" fill="#333" />
+<text x="341.05899999999997" y="2020.0625" textLength="60">153.82</text>
+<circle cx="198.184" cy="1955.987" r="3" fill="#333" />
+<text x="168.184" y="1956.987" textLength="60">273.76</text>
+<circle cx="148.8005" cy="2036.8580000000002" r="3" fill="#333" />
+<text x="118.8005" y="2037.8580000000002" textLength="60">231.69</text>
+<circle cx="234.267" cy="2023.9095000000002" r="3" fill="#333" />
+<text x="204.267" y="2024.9095000000002" textLength="60">368.05</text>
+<circle cx="204.05900000000003" cy="1316.308" r="3" fill="#333" />
+<text x="174.05900000000003" y="1317.308" textLength="60">201.16</text>
+<circle cx="247.1355" cy="1435.691" r="3" fill="#333" />
+<text x="217.1355" y="1436.691" textLength="60">68.10</text>
+<circle cx="356.24649999999997" cy="1445.7125" r="3" fill="#333" />
+<text x="326.24649999999997" y="1446.7125" textLength="60">164.34</text>
+<circle cx="313.17" cy="1326.3295" r="3" fill="#333" />
+<text x="283.17" y="1327.3295" textLength="60">331.68</text>
+<circle cx="328.697" cy="1425.7045" r="3" fill="#333" />
+<text x="298.697" y="1426.7045" textLength="60">219.14</text>
+<circle cx="370.68600000000004" cy="1540.9895000000001" r="3" fill="#333" />
+<text x="340.68600000000004" y="1541.9895000000001" textLength="60">249.69</text>
+<circle cx="356.24649999999997" cy="1445.7125" r="3" fill="#333" />
+<text x="326.24649999999997" y="1446.7125" textLength="60">164.34</text>
+<circle cx="260.6125" cy="1476.467" r="3" fill="#333" />
+<text x="230.6125" y="1477.467" textLength="60">50.17</text>
+<circle cx="275.052" cy="1571.744" r="3" fill="#333" />
+<text x="245.05200000000002" y="1572.744" textLength="60">159.56</text>
+<circle cx="342.174" cy="1466.4805000000001" r="3" fill="#333" />
+<text x="312.174" y="1467.4805000000001" textLength="60">200.91</text>
+<circle cx="371.05899999999997" cy="2019.0625" r="3" fill="#333" />
+<text x="341.05899999999997" y="2020.0625" textLength="60">153.82</text>
+<circle cx="504.009" cy="1925.4415" r="3" fill="#333" />
+<text x="474.009" y="1926.4415" textLength="60">376.72</text>
+<circle cx="526.7795" cy="1724.4335" r="3" fill="#333" />
+<text x="496.7795" y="1725.4335" textLength="60">167.90</text>
+<circle cx="393.8295" cy="1818.0545000000002" r="3" fill="#333" />
+<text x="363.8295" y="1819.0545000000002" textLength="60">291.04</text>
+<circle cx="429.9125" cy="1885.977" r="3" fill="#333" />
+<text x="399.9125" y="1886.977" textLength="60">404.59</text>
+<circle cx="555.87" cy="1386.99" r="3" fill="#333" />
+<text x="525.87" y="1387.99" textLength="60">255.45</text>
+<circle cx="501.084" cy="1146.3874999999998" r="3" fill="#333" />
+<text x="471.084" y="1147.3874999999998" textLength="60">516.48</text>
+<circle cx="258.384" cy="1085.7269999999999" r="3" fill="#333" />
+<text x="228.38400000000001" y="1086.7269999999999" textLength="60">297.28</text>
+<circle cx="313.17" cy="1326.3295" r="3" fill="#333" />
+<text x="283.17" y="1327.3295" textLength="60">331.68</text>
+<circle cx="431.232" cy="1277.5935" r="3" fill="#333" />
+<text x="401.232" y="1278.5935" textLength="60">500.33</text>
+<style>
+    text {
+        font: 20px monospace;
+    }
+</style>
+</svg>
