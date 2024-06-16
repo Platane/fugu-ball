@@ -12,18 +12,25 @@ const polygons: [number, number][][] = [...text.matchAll(/points="([^"]*)"/g)]
       .map((p) => p.split(",").map(Number))
   );
 
+const edges = polygons.flatMap((polygon) =>
+  polygon.map((_, i) => [polygon[i], polygon[(i + 1) % polygon.length]])
+);
+
 //
 // add edges
 
 let annotations = "";
 
-const edges = new Map<string, { a: [number, number]; b: [number, number] }>();
+const edgesMap = new Map<
+  string,
+  { a: [number, number]; b: [number, number] }
+>();
 
 for (const polygon of polygons) {
   let b = polygon.at(-1);
 
   for (const a of polygon) {
-    edges.set(a[0] + "" + b[0] + a[1] + "" + b[1], { a, b });
+    edgesMap.set(a[0] + "" + b[0] + a[1] + "" + b[1], { a, b });
 
     b = a;
   }
@@ -34,8 +41,8 @@ for (const polygon of polygons) {
 
     const key = a[0] + "" + b[0] + a[1] + "" + b[1];
 
-    if (!edges.has(key)) {
-      edges.set(key, { a, b });
+    if (!edgesMap.has(key)) {
+      edgesMap.set(key, { a, b });
 
       annotations +=
         "\n" +
@@ -82,11 +89,11 @@ for (const cluster of clusters) {
     maxY = Math.max(maxY, y + margin);
   }
 
-  edges.set(minX + "" + minY + minX + "" + maxY, {
+  edgesMap.set(minX + "" + minY + minX + "" + maxY, {
     a: [minX, minY],
     b: [minX, maxY],
   });
-  edges.set(minX + "" + minY + maxX + "" + minY, {
+  edgesMap.set(minX + "" + minY + maxX + "" + minY, {
     a: [minX, minY],
     b: [maxX, minY],
   });
@@ -124,7 +131,95 @@ for (let i = clusters.length; i--; ) {
 const font = "54px monospace";
 const scale = 0.095;
 
-for (const { a, b } of edges.values()) {
+// add margin for glue
+
+const pointEqual = (a: [number, number], b: [number, number]) =>
+  a[0] === b[0] && a[1] === b[1];
+
+{
+  for (let i = edges.length; i--; ) {
+    const [a, b] = edges[i];
+
+    const l = Math.hypot(a[0] - b[0], a[1] - b[1]);
+
+    const cx = (a[0] + b[0]) / 2;
+    const cy = (a[1] + b[1]) / 2;
+
+    let nx = a[1] - b[1];
+    let ny = -(a[0] - b[0]);
+    nx /= l;
+    ny /= l;
+
+    for (let j = i; j--; ) {
+      const [a0, b0] = edges[j];
+
+      if (pointEqual(a0, b) && pointEqual(a, b0)) break;
+
+      const l0 = Math.hypot(a0[0] - b0[0], a0[1] - b0[1]);
+
+      if (Math.abs(l - l0) < 0.01) {
+        const c0x = (a0[0] + b0[0]) / 2;
+        const c0y = (a0[1] + b0[1]) / 2;
+
+        let n0x = a0[1] - b0[1];
+        let n0y = -(a0[0] - b0[0]);
+        n0x /= l0;
+        n0y /= l0;
+
+        let m = 20;
+
+        if (
+          [
+            //
+            49.7, 49.4, 77.9, 51.2, 41.8, 41.2, 35.6, 46.9, 50.6, 54.6, 46.3,
+            39.6, 61.3, 29.3, 41.7,
+          ].some((x) => Math.abs(x - l * scale) < 0.1)
+        )
+          m *= -1;
+
+        const color = `hsl(${(i ** 3 + 17 * j ** 7) % 360} , 80% , 70%)`;
+        const color0 = `hsl(${(i ** 13 + 7 * j ** 5) % 360} , 80% , 40%)`;
+
+        annotations +=
+          "\n" +
+          `<circle ` +
+          `cx="${cx + nx * m}" ` +
+          `cy="${cy + ny * m}" ` +
+          `r="26" ` +
+          'stroke-width="8" ' +
+          `fill="${color}" stroke="${color0}" />` +
+          "\n" +
+          `<circle ` +
+          `cx="${c0x - n0x * m}" ` +
+          `cy="${c0y - n0y * m}" ` +
+          `r="26" ` +
+          'stroke-width="8" ' +
+          `fill="${color}" stroke="${color0}" />` +
+          "\n" +
+          `<line ` +
+          `x1="${a0[0]}" ` +
+          `x2="${b0[0]}" ` +
+          `y1="${a0[1]}" ` +
+          `y2="${b0[1]}" ` +
+          `stroke-width="${m === -20 ? 20 : 4}" ` +
+          `stroke="${color0}" />` +
+          "\n" +
+          `<line ` +
+          `x1="${a[0]}" ` +
+          `x2="${b[0]}" ` +
+          `y1="${a[1]}" ` +
+          `y2="${b[1]}" ` +
+          `stroke-width="${m === 20 ? 20 : 4}" ` +
+          `stroke="${color0}" />` +
+          "\n";
+
+        break;
+      }
+    }
+  }
+}
+
+for (const { a, b } of edgesMap.values()) {
   const cx = (a[0] + b[0]) / 2;
   const cy = (a[1] + b[1]) / 2;
 
