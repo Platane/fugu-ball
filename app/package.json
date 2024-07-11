@@ -1,0 +1,23 @@
+{
+  "name": "fugu-ball",
+  "author": {
+    "name": "platane"
+  },
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@types/three": "0.166.0",
+    "three": "0.166.1"
+  },
+  "devDependencies": {
+    "vite": "5.3.3",
+    "@types/node": "20.14.10",
+    "bun-types": "1.1.18",
+    "@biomejs/biome": "1.8.3",
+    "typescript": "5.5.3"
+  },
+  "scripts": {
+    "dev": "vite --port 3000"
+  }
+}
