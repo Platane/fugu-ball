@@ -12,11 +12,21 @@ export const createRenderer = () => {
   const scene = new THREE.Scene();
 
   {
-    const dirLight = new THREE.DirectionalLight(0x404040, 50);
-    dirLight.position.set(2, 2.5, 2.6);
-    scene.add(dirLight);
+    const dirLight1 = new THREE.DirectionalLight(0x404040, 50);
+    dirLight1.position.set(2, 2.5, 2.6);
+    scene.add(dirLight1);
 
-    scene.add(new THREE.DirectionalLightHelper(dirLight));
+    const dirLight2 = new THREE.DirectionalLight(0x363011, 30);
+    dirLight2.position.set(1, 1.4, -2.6);
+    scene.add(dirLight2);
+
+    const dirLight3 = new THREE.DirectionalLight(0x666666, 10);
+    dirLight3.position.set(0, 3, 0.1);
+    scene.add(dirLight3);
+
+    scene.add(new THREE.DirectionalLightHelper(dirLight1));
+    scene.add(new THREE.DirectionalLightHelper(dirLight2));
+    scene.add(new THREE.DirectionalLightHelper(dirLight3));
 
     const ambientLight = new THREE.AmbientLight(0x404040, 15);
     scene.add(ambientLight);
@@ -24,7 +34,7 @@ export const createRenderer = () => {
 
   const cube = new THREE.Mesh(
     new THREE.BoxGeometry(),
-    new THREE.MeshStandardMaterial({ color: "#3de541" })
+    new THREE.MeshStandardMaterial({ color: "#3de541" }),
   );
   scene.add(cube);
 
@@ -32,7 +42,7 @@ export const createRenderer = () => {
     55,
     window.innerWidth / window.innerHeight,
     1,
-    20000
+    20000,
   );
   camera.position.set(30, 30, 100);
   const controls = new OrbitControls(camera, renderer.domElement);
@@ -54,7 +64,7 @@ export const createRenderer = () => {
 
       renderer.setSize(window.innerWidth, window.innerHeight);
     },
-    false
+    false,
   );
 
   return { scene, renderer };
