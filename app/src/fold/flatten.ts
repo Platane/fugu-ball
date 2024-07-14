@@ -1,6 +1,6 @@
 import * as THREE from "three";
 
-type Face = [THREE.Vector3, THREE.Vector3, THREE.Vector3];
+export type Face = [THREE.Vector3, THREE.Vector3, THREE.Vector3];
 
 export const flatten = (faces_: Face[]) => {
   const getFaceNormal = ([a, b, c]: Face) => {
@@ -65,7 +65,7 @@ export const flatten = (faces_: Face[]) => {
     const n0 = getFaceNormal(f0);
     const q0 = getRotationFromAtoB(n0, UP);
 
-    const flat = f0.map((p) => p.applyQuaternion(q0));
+    const flat = f0.map((p) => p.applyQuaternion(q0)) as Face;
 
     chunk.push({
       face: f0,
@@ -98,8 +98,8 @@ export const extractFaces = (geometry: THREE.BufferGeometry) => {
       new THREE.Vector3(
         geometry.attributes.position.array[i + 0],
         geometry.attributes.position.array[i + 1],
-        geometry.attributes.position.array[i + 2]
-      )
+        geometry.attributes.position.array[i + 2],
+      ),
     );
   }
   if (geometry.index)
