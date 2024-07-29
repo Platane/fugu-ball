@@ -15,29 +15,6 @@ interface F {
  * return an array of hierarchy
  */
 export const flatten = (faces_: Face[]) => {
-  const getFlattenMatrix = (face: Face) => {
-    const m = new THREE.Matrix4();
-
-    const n = getFaceNormal(face);
-
-    const q = getRotationFromAtoB(n, UP);
-
-    const n_ = n.clone().applyQuaternion(q);
-    console.log(n_.toArray());
-
-    m.makeRotationFromQuaternion(q);
-
-    return m;
-
-    const a = face[0].clone().applyQuaternion(q);
-
-    const tr = new THREE.Matrix4();
-
-    tr.makeTranslation(new THREE.Vector3(0, -a.y, 0));
-
-    // return m.multiply(tr);
-  };
-
   const UP = new THREE.Vector3(0, 1, 0);
 
   const faces = faces_.slice();
@@ -59,29 +36,23 @@ export const flatten = (faces_: Face[]) => {
     // take an arbitrary face of the list as parent
     const f0 = faces.shift()!;
 
-    // rotate to flat it from an arbitrary axis (let's take the first edge)
-    const o = f0[0].clone();
-    const v = new THREE.Vector3()
-      .crossVectors(
-        new THREE.Vector3().subVectors(f0[1], o).normalize(),
-        new THREE.Vector3().subVectors(f0[2], o).normalize(),
-      )
-      .normalize();
-
     const n0 = getFaceNormal(f0);
 
-    const a = Math.acos(-n0.dot(UP));
+    const q0 = getRotationFromAtoB(n0, UP);
 
-    const flat = f0.map((p_) => {
-      const p = p_.clone();
+    const centerOfFace = new THREE.Vector3(
+      (f0[0].x + f0[1].x + f0[2].x) / 3,
+      (f0[0].y + f0[1].y + f0[2].y) / 3,
+      (f0[0].z + f0[1].z + f0[2].z) / 3,
+    );
 
-      p.sub(o);
+    const flat = f0.map((p) => {
+      const ce = new THREE.Vector3().subVectors(p, centerOfFace);
 
-      p.applyAxisAngle(v, a);
+      ce.applyQuaternion(q0);
+      ce.add(centerOfFace);
 
-      p.add(o);
-
-      return p;
+      return ce;
     });
 
     console.log(getFaceNormal(flat).dot(UP));
@@ -137,6 +108,10 @@ const getFaceNormal = ([a, b, c]: Face) => {
   const ac = new THREE.Vector3().subVectors(c, a).normalize();
   return new THREE.Vector3().crossVectors(ab, ac).normalize();
 };
+
+/**
+ * assuming a and b are normalized
+ */
 const getRotationFromAtoB = (a: THREE.Vector3, b: THREE.Vector3) => {
   const q = new THREE.Quaternion();
 
@@ -146,11 +121,11 @@ const getRotationFromAtoB = (a: THREE.Vector3, b: THREE.Vector3) => {
     q.identity();
     return q;
   }
-  if (dot < 0.999999) {
+  if (dot < -0.999999) {
     throw "not implemented";
   }
 
-  const u = new THREE.Vector3().crossVectors(a, b).normalize();
+  const u = new THREE.Vector3().crossVectors(a, b);
 
   q.x = u.x;
   q.y = u.y;
