@@ -38,19 +38,50 @@ const faceToMesh = (face: PointLike[]) => {
 };
 
 (async () => {
-  const faces = extractFaces(await loadGeometry(modelUrl));
+  // const faces = extractFaces(await loadGeometry(modelUrl));
+  const faces = [];
+  {
+    const a = new THREE.Vector3(0, 0, 0);
+    const b = new THREE.Vector3(2, 0, 0);
+    const c = new THREE.Vector3(0, 0, 2.3);
+    const d = new THREE.Vector3(1, 2.1, -1);
 
-  console.log(faces);
+    faces.push(
+      //
+      [a, c, b],
+      [a, b, d],
+    );
+  }
 
-  const mat = new THREE.MeshStandardMaterial({ color: "#ab1231" });
-  const meshes = faces.map(faceToMesh).map((geo) => {
-    const m = new THREE.Mesh(geo, mat);
-    m.material.side = THREE.DoubleSide;
-    mat.flatShading = true;
-    return m;
+  const mat = new THREE.MeshStandardMaterial({
+    color: "#ab1231",
+    flatShading: true,
+    side: THREE.DoubleSide,
   });
+  const mat2 = mat.clone();
+  mat2.wireframe = true;
+
+  const chunks = flatten(faces);
+
+  const traverse = (c: (typeof chunks)[number]) => {
+    const geo = faceToMesh(c.face);
+    const m = new THREE.Mesh(geo, mat);
+
+    for (const o of c.children) m.add(traverse(o));
+
+    return m;
+  };
+  const meshes = chunks.map(traverse);
 
   for (const m of meshes) scene.add(m);
 
-  const chunks = flatten(faces);
+  for (const f of faces) scene.add(new THREE.Mesh(faceToMesh(f), mat2));
+
+  {
+    const input = document.querySelector("#time-range") as HTMLInputElement;
+    input.addEventListener("input", (e) => {
+      const k = +input.value;
+      console.log(k);
+    });
+  }
 })();

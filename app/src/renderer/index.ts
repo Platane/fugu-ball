@@ -45,12 +45,38 @@ export const createRenderer = () => {
     20000,
   );
   camera.position.set(30, 30, 100);
+  {
+    const p = location.hash
+      .split("#")[1]
+      ?.match(/([\d.-]*),([\d.-]*),([\d.-]*)/);
+    if (p) camera.position.set(+p[1], +p[2], +p[3]);
+  }
+
   const controls = new OrbitControls(camera, renderer.domElement);
   controls.maxPolarAngle = Math.PI * 0.495;
   controls.target.set(0, 0, 0);
   controls.minDistance = 1.0;
   controls.maxDistance = 10.0;
   controls.update();
+  {
+    let timeout: string | number | NodeJS.Timeout | undefined;
+    controls.addEventListener("change", () => {
+      clearTimeout(timeout);
+      timeout = setTimeout(
+        () =>
+          history.replaceState(
+            {},
+            "",
+            "#" +
+              camera.position
+                .toArray()
+                .map((x) => Math.round(x * 100) / 100)
+                .join(","),
+          ),
+        200,
+      );
+    });
+  }
 
   renderer.setAnimationLoop(() => {
     renderer.render(scene, camera);

@@ -2,33 +2,19 @@ import * as THREE from "three";
 
 export type Face = [THREE.Vector3, THREE.Vector3, THREE.Vector3];
 
+interface F {
+  face: THREE.Vector3[];
+  origin: THREE.Vector3;
+  rotation: THREE.Quaternion;
+  // rotationAxis: { o: THREE.Vector3; v: THREE.Vector3 };
+  // rotationAngle: number;
+  children: F[];
+}
+
+/**
+ * return an array of hierarchy
+ */
 export const flatten = (faces_: Face[]) => {
-  const getFaceNormal = ([a, b, c]: Face) => {
-    const ab = new THREE.Vector3().subVectors(b, a).normalize();
-    const ac = new THREE.Vector3().subVectors(c, a).normalize();
-    return new THREE.Vector3().crossVectors(ab, ac).normalize();
-  };
-  const getRotationFromAtoB = (a: THREE.Vector3, b: THREE.Vector3) => {
-    const q = new THREE.Quaternion();
-
-    const dot = a.dot(b);
-
-    if (dot > 0.999999) {
-      q.identity();
-      return q;
-    }
-
-    const u = new THREE.Vector3().crossVectors(a, b).normalize();
-
-    q.x = u.x;
-    q.y = u.y;
-    q.z = u.z;
-    q.w = 1 + dot;
-
-    q.normalize();
-
-    return q;
-  };
   const getFlattenMatrix = (face: Face) => {
     const m = new THREE.Matrix4();
 
@@ -56,22 +42,51 @@ export const flatten = (faces_: Face[]) => {
 
   const faces = faces_.slice();
 
-  const chunks: { face: Face; flat: Face; m: THREE.Matrix4 }[][] = [];
+  const chunks: F[] = [];
 
+  // until there is no faces...
   while (faces[0]) {
-    const chunk: { face: Face; flat: Face; m: THREE.Matrix4 }[] = [];
+    const parent: F = {
+      face: [],
+      children: [],
+      rotationAxis: {
+        v: new THREE.Vector3(),
+        o: new THREE.Vector3(),
+      },
+      rotationAngle: 0,
+    };
 
+    // take an arbitrary face of the list as parent
     const f0 = faces.shift()!;
+
+    // rotate to flat it from an arbitrary axis (let's take the first edge)
+    const o = f0[0].clone();
+    const v = new THREE.Vector3()
+      .crossVectors(
+        new THREE.Vector3().subVectors(f0[1], o).normalize(),
+        new THREE.Vector3().subVectors(f0[2], o).normalize(),
+      )
+      .normalize();
+
     const n0 = getFaceNormal(f0);
-    const q0 = getRotationFromAtoB(n0, UP);
 
-    const flat = f0.map((p) => p.applyQuaternion(q0)) as Face;
+    const a = Math.acos(-n0.dot(UP));
 
-    chunk.push({
-      face: f0,
-      flat,
-      m: new THREE.Matrix4().makeRotationFromQuaternion(q0),
+    const flat = f0.map((p_) => {
+      const p = p_.clone();
+
+      p.sub(o);
+
+      p.applyAxisAngle(v, a);
+
+      p.add(o);
+
+      return p;
     });
+
+    console.log(getFaceNormal(flat).dot(UP));
+
+    parent.face.push(...flat);
 
     const edges = [
       [f0[0], f0[1]],
@@ -83,7 +98,7 @@ export const flatten = (faces_: Face[]) => {
       break;
     }
 
-    chunks.push(chunk);
+    chunks.push(parent);
   }
 
   return chunks;
@@ -115,4 +130,34 @@ export const extractFaces = (geometry: THREE.BufferGeometry) => {
   }
 
   return faces;
+};
+
+const getFaceNormal = ([a, b, c]: Face) => {
+  const ab = new THREE.Vector3().subVectors(b, a).normalize();
+  const ac = new THREE.Vector3().subVectors(c, a).normalize();
+  return new THREE.Vector3().crossVectors(ab, ac).normalize();
+};
+const getRotationFromAtoB = (a: THREE.Vector3, b: THREE.Vector3) => {
+  const q = new THREE.Quaternion();
+
+  const dot = a.dot(b);
+
+  if (dot > 0.999999) {
+    q.identity();
+    return q;
+  }
+  if (dot < 0.999999) {
+    throw "not implemented";
+  }
+
+  const u = new THREE.Vector3().crossVectors(a, b).normalize();
+
+  q.x = u.x;
+  q.y = u.y;
+  q.z = u.z;
+  q.w = 1 + dot;
+
+  q.normalize();
+
+  return q;
 };
