@@ -24,9 +24,9 @@ export const createRenderer = () => {
     dirLight3.position.set(0, 3, 0.1);
     scene.add(dirLight3);
 
-    scene.add(new THREE.DirectionalLightHelper(dirLight1));
-    scene.add(new THREE.DirectionalLightHelper(dirLight2));
-    scene.add(new THREE.DirectionalLightHelper(dirLight3));
+    // scene.add(new THREE.DirectionalLightHelper(dirLight1));
+    // scene.add(new THREE.DirectionalLightHelper(dirLight2));
+    // scene.add(new THREE.DirectionalLightHelper(dirLight3));
 
     const ambientLight = new THREE.AmbientLight(0x404040, 15);
     scene.add(ambientLight);
@@ -53,7 +53,7 @@ export const createRenderer = () => {
   }
 
   const controls = new OrbitControls(camera, renderer.domElement);
-  controls.maxPolarAngle = Math.PI * 0.495;
+  controls.maxPolarAngle = Math.PI * 0.8;
   controls.target.set(0, 0, 0);
   controls.minDistance = 1.0;
   controls.maxDistance = 10.0;
